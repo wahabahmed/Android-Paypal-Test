@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PaypalTest</string>
+    <string name="title_activity_payment_details">PaymentDetails</string>
+</resources>

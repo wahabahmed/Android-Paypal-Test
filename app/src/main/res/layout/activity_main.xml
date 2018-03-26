@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="urdj.automaticamusements.com.paypaltest.MainActivity">
+
+
+    <EditText
+        android:id="@+id/amountField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Amount to pay"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/amountField"
+        android:layout_marginTop="18dp"
+        android:text="pay"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+</RelativeLayout>
